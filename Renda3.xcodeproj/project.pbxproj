@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDAC0DCD26DC823500EF97D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC0DCC26DC823500EF97D7 /* AppDelegate.swift */; };
+		CDAC0DCF26DC823500EF97D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC0DCE26DC823500EF97D7 /* SceneDelegate.swift */; };
+		CDAC0DD126DC823500EF97D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC0DD026DC823500EF97D7 /* ViewController.swift */; };
+		CDAC0DD426DC823500EF97D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAC0DD226DC823500EF97D7 /* Main.storyboard */; };
+		CDAC0DD626DC823700EF97D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAC0DD526DC823700EF97D7 /* Assets.xcassets */; };
+		CDAC0DD926DC823700EF97D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAC0DD726DC823700EF97D7 /* LaunchScreen.storyboard */; };
+		CDAC0DE426DC823700EF97D7 /* Renda3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC0DE326DC823700EF97D7 /* Renda3Tests.swift */; };
+		CDAC0DEF26DC823700EF97D7 /* Renda3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC0DEE26DC823700EF97D7 /* Renda3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDAC0DE026DC823700EF97D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDAC0DC126DC823500EF97D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDAC0DC826DC823500EF97D7;
+			remoteInfo = Renda3;
+		};
+		CDAC0DEB26DC823700EF97D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDAC0DC126DC823500EF97D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDAC0DC826DC823500EF97D7;
+			remoteInfo = Renda3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDAC0DC926DC823500EF97D7 /* Renda3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Renda3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAC0DCC26DC823500EF97D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDAC0DCE26DC823500EF97D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CDAC0DD026DC823500EF97D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDAC0DD326DC823500EF97D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDAC0DD526DC823700EF97D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDAC0DD826DC823700EF97D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDAC0DDA26DC823700EF97D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDAC0DDF26DC823700EF97D7 /* Renda3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Renda3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAC0DE326DC823700EF97D7 /* Renda3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renda3Tests.swift; sourceTree = "<group>"; };
+		CDAC0DE526DC823700EF97D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDAC0DEA26DC823700EF97D7 /* Renda3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Renda3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAC0DEE26DC823700EF97D7 /* Renda3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renda3UITests.swift; sourceTree = "<group>"; };
+		CDAC0DF026DC823700EF97D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDAC0DC626DC823500EF97D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAC0DDC26DC823700EF97D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAC0DE726DC823700EF97D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDAC0DC026DC823500EF97D7 = {
+			isa = PBXGroup;
+			children = (
+				CDAC0DCB26DC823500EF97D7 /* Renda3 */,
+				CDAC0DE226DC823700EF97D7 /* Renda3Tests */,
+				CDAC0DED26DC823700EF97D7 /* Renda3UITests */,
+				CDAC0DCA26DC823500EF97D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDAC0DCA26DC823500EF97D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDAC0DC926DC823500EF97D7 /* Renda3.app */,
+				CDAC0DDF26DC823700EF97D7 /* Renda3Tests.xctest */,
+				CDAC0DEA26DC823700EF97D7 /* Renda3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDAC0DCB26DC823500EF97D7 /* Renda3 */ = {
+			isa = PBXGroup;
+			children = (
+				CDAC0DCC26DC823500EF97D7 /* AppDelegate.swift */,
+				CDAC0DCE26DC823500EF97D7 /* SceneDelegate.swift */,
+				CDAC0DD026DC823500EF97D7 /* ViewController.swift */,
+				CDAC0DD226DC823500EF97D7 /* Main.storyboard */,
+				CDAC0DD526DC823700EF97D7 /* Assets.xcassets */,
+				CDAC0DD726DC823700EF97D7 /* LaunchScreen.storyboard */,
+				CDAC0DDA26DC823700EF97D7 /* Info.plist */,
+			);
+			path = Renda3;
+			sourceTree = "<group>";
+		};
+		CDAC0DE226DC823700EF97D7 /* Renda3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CDAC0DE326DC823700EF97D7 /* Renda3Tests.swift */,
+				CDAC0DE526DC823700EF97D7 /* Info.plist */,
+			);
+			path = Renda3Tests;
+			sourceTree = "<group>";
+		};
+		CDAC0DED26DC823700EF97D7 /* Renda3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDAC0DEE26DC823700EF97D7 /* Renda3UITests.swift */,
+				CDAC0DF026DC823700EF97D7 /* Info.plist */,
+			);
+			path = Renda3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDAC0DC826DC823500EF97D7 /* Renda3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDAC0DF326DC823700EF97D7 /* Build configuration list for PBXNativeTarget "Renda3" */;
+			buildPhases = (
+				CDAC0DC526DC823500EF97D7 /* Sources */,
+				CDAC0DC626DC823500EF97D7 /* Frameworks */,
+				CDAC0DC726DC823500EF97D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Renda3;
+			productName = Renda3;
+			productReference = CDAC0DC926DC823500EF97D7 /* Renda3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDAC0DDE26DC823700EF97D7 /* Renda3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDAC0DF626DC823700EF97D7 /* Build configuration list for PBXNativeTarget "Renda3Tests" */;
+			buildPhases = (
+				CDAC0DDB26DC823700EF97D7 /* Sources */,
+				CDAC0DDC26DC823700EF97D7 /* Frameworks */,
+				CDAC0DDD26DC823700EF97D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDAC0DE126DC823700EF97D7 /* PBXTargetDependency */,
+			);
+			name = Renda3Tests;
+			productName = Renda3Tests;
+			productReference = CDAC0DDF26DC823700EF97D7 /* Renda3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDAC0DE926DC823700EF97D7 /* Renda3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDAC0DF926DC823700EF97D7 /* Build configuration list for PBXNativeTarget "Renda3UITests" */;
+			buildPhases = (
+				CDAC0DE626DC823700EF97D7 /* Sources */,
+				CDAC0DE726DC823700EF97D7 /* Frameworks */,
+				CDAC0DE826DC823700EF97D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDAC0DEC26DC823700EF97D7 /* PBXTargetDependency */,
+			);
+			name = Renda3UITests;
+			productName = Renda3UITests;
+			productReference = CDAC0DEA26DC823700EF97D7 /* Renda3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDAC0DC126DC823500EF97D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CDAC0DC826DC823500EF97D7 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					CDAC0DDE26DC823700EF97D7 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CDAC0DC826DC823500EF97D7;
+					};
+					CDAC0DE926DC823700EF97D7 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CDAC0DC826DC823500EF97D7;
+					};
+				};
+			};
+			buildConfigurationList = CDAC0DC426DC823500EF97D7 /* Build configuration list for PBXProject "Renda3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDAC0DC026DC823500EF97D7;
+			productRefGroup = CDAC0DCA26DC823500EF97D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDAC0DC826DC823500EF97D7 /* Renda3 */,
+				CDAC0DDE26DC823700EF97D7 /* Renda3Tests */,
+				CDAC0DE926DC823700EF97D7 /* Renda3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDAC0DC726DC823500EF97D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAC0DD926DC823700EF97D7 /* LaunchScreen.storyboard in Resources */,
+				CDAC0DD626DC823700EF97D7 /* Assets.xcassets in Resources */,
+				CDAC0DD426DC823500EF97D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAC0DDD26DC823700EF97D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAC0DE826DC823700EF97D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDAC0DC526DC823500EF97D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAC0DD126DC823500EF97D7 /* ViewController.swift in Sources */,
+				CDAC0DCD26DC823500EF97D7 /* AppDelegate.swift in Sources */,
+				CDAC0DCF26DC823500EF97D7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAC0DDB26DC823700EF97D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAC0DE426DC823700EF97D7 /* Renda3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAC0DE626DC823700EF97D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAC0DEF26DC823700EF97D7 /* Renda3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDAC0DE126DC823700EF97D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDAC0DC826DC823500EF97D7 /* Renda3 */;
+			targetProxy = CDAC0DE026DC823700EF97D7 /* PBXContainerItemProxy */;
+		};
+		CDAC0DEC26DC823700EF97D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDAC0DC826DC823500EF97D7 /* Renda3 */;
+			targetProxy = CDAC0DEB26DC823700EF97D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDAC0DD226DC823500EF97D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDAC0DD326DC823500EF97D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDAC0DD726DC823700EF97D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDAC0DD826DC823700EF97D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDAC0DF126DC823700EF97D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDAC0DF226DC823700EF97D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDAC0DF426DC823700EF97D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Renda3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.pico.ogoshi.Renda3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDAC0DF526DC823700EF97D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Renda3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.pico.ogoshi.Renda3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDAC0DF726DC823700EF97D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Renda3Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.pico.ogoshi.Renda3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Renda3.app/Renda3";
+			};
+			name = Debug;
+		};
+		CDAC0DF826DC823700EF97D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Renda3Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.pico.ogoshi.Renda3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Renda3.app/Renda3";
+			};
+			name = Release;
+		};
+		CDAC0DFA26DC823700EF97D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Renda3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.pico.ogoshi.Renda3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Renda3;
+			};
+			name = Debug;
+		};
+		CDAC0DFB26DC823700EF97D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Renda3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.pico.ogoshi.Renda3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Renda3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDAC0DC426DC823500EF97D7 /* Build configuration list for PBXProject "Renda3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAC0DF126DC823700EF97D7 /* Debug */,
+				CDAC0DF226DC823700EF97D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAC0DF326DC823700EF97D7 /* Build configuration list for PBXNativeTarget "Renda3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAC0DF426DC823700EF97D7 /* Debug */,
+				CDAC0DF526DC823700EF97D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAC0DF626DC823700EF97D7 /* Build configuration list for PBXNativeTarget "Renda3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAC0DF726DC823700EF97D7 /* Debug */,
+				CDAC0DF826DC823700EF97D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAC0DF926DC823700EF97D7 /* Build configuration list for PBXNativeTarget "Renda3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAC0DFA26DC823700EF97D7 /* Debug */,
+				CDAC0DFB26DC823700EF97D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDAC0DC126DC823500EF97D7 /* Project object */;
+}
