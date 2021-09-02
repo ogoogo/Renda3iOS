@@ -23,6 +23,11 @@ class ViewController: UIViewController {
     var questionNumber:Int!
     var count:Int=30
     var point:Int=0
+    var random:Int!
+    
+    
+    
+    var imageArray=[UIImage(named: "kusa0"),UIImage(named: "kusa1"),UIImage(named: "kusa2")]
     
 
     override func viewDidLoad() {
@@ -64,7 +69,7 @@ class ViewController: UIViewController {
     @IBAction func yes(){
         number += 1
         if imageView.image==UIImage(named: "suzuran"){
-            point -= 20
+            point -= 10
             pointLabel.textColor=UIColor.red
             pointLabel.text=String(point)
             number=0
@@ -75,8 +80,10 @@ class ViewController: UIViewController {
             pointLabel.text=String(point)
             if number == questionNumber{
                 imageView.image=UIImage(named: "suzuran")
-            }
+            }else{
+                imageView.image=imageArray[defferentKusa()]
         }
+    }
     }
     
     @IBAction func no(){
@@ -92,7 +99,8 @@ class ViewController: UIViewController {
     
     func setGame(){
         questionNumber=Int.random(in: 3...15)
-        imageView.image=UIImage(named: "kusa")
+        random = Int.random(in:0 ... 2)
+        imageView.image=UIImage(named: "kusa"+String(random))
     }
     
     @objc func nowTimer(){
@@ -128,7 +136,27 @@ class ViewController: UIViewController {
             secondViewController.point = sender as! Int
         }
     }
+    
+    func defferentKusa()->Int{
+        
+        if imageView.image==imageArray[0]{
+            return Int.random(in:1...2)
+        }else if imageView.image==imageArray[1]{
+            let num = Int.random(in: 0...1)
+            if num == 1{
+                return 2
+            }else{
+                return 0
+            }
+        }else{
+            return Int.random(in: 0...1)
+        }
+        
+    
 
 
-}
+    }
+    }
+
+
 
